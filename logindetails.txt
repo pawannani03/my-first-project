@@ -1,0 +1,29 @@
+'''
+
+scriptname : logindetails.py
+Descriptions : The script is about login details.
+Author : Pawan
+Date : 05/08/2018
+version:
+Comments :  
+
+'''
+# python logindetails.py HDFC
+
+
+import sys
+
+bank_name = sys.argv[1]
+
+print("bank name is ",bank_name)
+
+usr_nm = input("Enter username \n")
+print("user name is ",usr_nm)
+
+pass_wd = input("Enter your password\n")
+print("pasword is",pass_wd)
+
+
+print("Hello Mr.",usr_nm)
+print("Thanks for visiting",bank_name)
+
